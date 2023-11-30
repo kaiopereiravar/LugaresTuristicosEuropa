@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lugares Turísticos da Europa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            padding: 20px;
+            float: left;
+            width: calc(33.33% - 40px);
+            
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Lugares Turísticos da Europa</h1>
+    </header>
+
+    <nav>
+        <a href="#paris">Paris</a>
+        <a href="#rome">Roma</a>
+        <a href="#barcelona">Barcelona</a>
+    </nav>
+
+    <div class="container">
+        <div id="paris" class="card">
+            <img src="img/paris.jpeg" alt="Paris">
+            <h2>Paris</h2>
+            <p>Paris, a cidade do amor, é conhecida pela Torre Eiffel, Louvre e pela arquitetura encantadora.</p>
+        </div>
+
+        <div id="rome" class="card">
+            <img src="img/roma.jpeg" alt="Roma">
+            <h2>Roma</h2>
+            <p>Roma é uma cidade repleta de história, com o Coliseu, o Vaticano e a Fontana di Trevi.</p>
+        </div>
+
+        <div id="barcelona" class="card">
+            <img src="img/barcelona.jpeg" alt="Barcelona">
+            <h2>Barcelona</h2>
+            <p>Barcelona é famosa pela arquitetura de Gaudí e suas praias deslumbrantes.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Lugares Turísticos da Europa</p>
+    </footer>
+</body>
+
+</html>
